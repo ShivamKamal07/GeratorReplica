@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerator Devices</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <div class="logo">Gerator<span>+</span></div>
+        <nav class="main-nav">
+          <a href="#">Home</a>
+          <a href="#">Devices</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <div class="search">
+            <input type="search" id="siteSearch" placeholder="Search devices..." />
+          </div>
+          <a class="cta" href="#">Sign In</a>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Gerator Devices</h1>
+          <p class="subtitle">Discover curated demo devices — filter, sort and explore sample products.</p>
+          
+        </div>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="filter">
+        <label>Brand:</label>
+        <select id="brandFilter">
+          <option value="">All</option>
+          <option value="Brand X">Brand X</option>
+          <option value="Brand Y">Brand Y</option>
+          <option value="Brand Z">Brand Z</option>
+        </select>
+
+        <label>Category:</label>
+        <select id="categoryFilter">
+          <option value="">All</option>
+          <option value="Category 1">Category 1</option>
+          <option value="Category 2">Category 2</option>
+          <option value="Category 3">Category 3</option>
+        </select>
+
+        <label>Min Price:</label>
+        <input type="number" id="minPrice" placeholder="0" />
+        <label>Max Price:</label>
+        <input type="number" id="maxPrice" placeholder="1000" />
+
+        <button id="applyFilter">Apply Filter</button>
+      </div>
+
+      <div class="sort">
+        <label>Sort By:</label>
+        <select id="sortSelect">
+          <option value="price">Price</option>
+          <option value="popularity">Popularity</option>
+          <option value="newest">Newest</option>
+        </select>
+      </div>
+    </section>
+
+    <main>
+      <div class="device-grid"></div>
+      <button id="loadMoreBtn">Load More</button>
+    </main>
+   <footer>
+  <div class="footer-container">
+    <div class="footer-section about">
+      <h3>About Gerator</h3>
+      <p>Gerator Devices is a demo e-commerce page built for internship assignments. All devices shown are sample data.</p>
+    </div>
+
+    <div class="footer-section links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Devices</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h3>Contact Us</h3>
+      <p><span>📧</span> support@gerator.com</p>
+      <p><span>📞</span> +91 1234567890</p>
+      <div class="social-icons">
+        <a href="#"><span>🌐</span></a>
+        <a href="#"><span>🐦</span></a>
+        <a href="#"><span>📘</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Gerator Devices. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
