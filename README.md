@@ -19,8 +19,8 @@ A fully functional, responsive replica of the **Gerator Devices** page built usi
 
 ## Demo
 
-You can view the live demo here: [Add your GitHub Pages link or deployment link]
-
+You can view the live demo here:
+https://shivamkamal07.github.io/GeratorReplica/
 ---
 
 ## Features
